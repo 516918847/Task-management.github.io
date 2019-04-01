@@ -1,42 +1,67 @@
+body {
 
-.label{
-  
-   background-color:#68CDD5FF 
-   
-}
-.tag{
-   position:absolute;
-   top:20px;
-   margin-left: 20px;
-}
-.logo3{
-   margin-top: 10%;
-   text-align:center;
-   
-   
-}
-.logo1{
-   float: left;
-   margin:0 20%;
+   background-color: rgba(104, 205, 213, 1);
 
 }
-.logo2{
-   float: right;
-   margin: 0 20%;
-   
+
+.tag {
+   margin: 10px 10px;
 }
-.counter{
-   margin:10%;
+
+.logo3 {
+   margin-top: 5%;
    text-align: center;
-   color:#FFFFFFFF;
-   font-size:1.2em;
+
+
+
 }
-.character{
-   color:#FFF;
-   margin: 10% 0 ;
+
+.logo1 {
+   float: left;
+   margin: 70px 0 0 20%;
+
+}
+
+.logo2 {
+   float: right;
+   margin: 70px 20% 0 0;
+   text-align: right;
+
+}
+
+.counter {
+   margin: 10% 10%;
+   text-align: center;
+   color: #FFF;
    
 }
-.heit{
-   color:#FFF;
-   margin: 10% 0 ;
+
+.character {
+   color: #FFF;
+
+   font-size: 0.7em;
+
+}
+
+.heit {
+   color: #FFF;
+   margin: 10% 0;
+   font-size: 0.7em;
+}
+
+.logo3 img {
+   width: 9em;
+}
+
+.tag img {
+   width: 2em;
+}
+
+.logo2 img {
+   width: 50%
+}
+
+.logo1 img {
+   width: 50%;
+   margin: 0 0 10%;
 }
