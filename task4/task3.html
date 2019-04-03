@@ -25,7 +25,7 @@
      <main>
          <div>
              <img class="logo1" src="logo1.png">
-             <input maxlength="11" placeholder="请输入手机号" />
+             <input onkeyup="this.value=this.value.replace(/\D/g,'')"  maxlength="11" placeholder="请输入手机号" />
 
          </div>
      </main>
