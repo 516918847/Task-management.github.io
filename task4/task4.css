@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 header{
-    background-color:#5FC0CDFF;
+    background-color:rgba(95, 192, 205, 1);
     height: 50px;
 }
 .heit1{
@@ -53,7 +53,7 @@ main input{
 
 footer{
     height: 56px;
-    background-color:#5FC0CDFF;
+    background-color:rgba(95, 192, 205, 1);
 }
 
 footer div{
@@ -66,5 +66,5 @@ footer div{
 footer a{
     float: right;
     margin: 10px;
-    color: #5FC0CD;
+    color:rgba(95, 192, 205, 1);
 }
