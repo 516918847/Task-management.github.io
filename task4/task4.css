@@ -1,0 +1,70 @@
+body{
+    background-color:rgba(239, 240, 244, 1);
+    margin: 0;
+}
+header{
+    background-color:#5FC0CDFF;
+    height: 50px;
+}
+.heit1{
+    color:rgba(255, 255, 255, 1);
+    left: 1%;
+    top: 1em;
+    position: absolute;
+}
+.heit2{
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 1em;
+}
+.heit3{
+    color:rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1em;
+    right: 1%;
+}
+main{
+    background-color:rgba(255, 255, 255, 1);
+    height: 50px;
+    margin: 0.8em 0;
+}
+.logo1{
+    width: 15px;
+    margin: 10px 19px;
+    float: left;
+}
+.logo2{
+    width: 15px;
+    margin: 10px 19px;
+    float: left;
+}
+main input{
+  
+  height: 25px;
+  width: 50%;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  padding-left: 25px;
+  outline: none;
+  border-width: 0 1px;
+  margin-top: 10px;
+}
+
+footer{
+    height: 56px;
+    background-color:#5FC0CDFF;
+}
+
+footer div{
+    padding: 19px;
+    text-align: center;
+    letter-spacing: 15px;
+    color:rgba(255, 255, 255, 1);
+}
+
+footer a{
+    float: right;
+    margin: 10px;
+    color: #5FC0CD;
+}
