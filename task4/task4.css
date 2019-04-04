@@ -1,70 +1,76 @@
-body{
-    background-color:rgba(239, 240, 244, 1);
+body {
     margin: 0;
+    background-color: rgba(239, 240, 244, 1);
 }
-header{
-    background-color:rgba(95, 192, 205, 1);
+
+header {
     height: 50px;
+    background-color: rgba(95, 192, 205, 1);
 }
-.heit1{
-    color:rgba(255, 255, 255, 1);
-    left: 1%;
-    top: 1em;
+
+.heit1 {
     position: absolute;
+    top: 1em;
+    left: 1%;
+    color: rgba(255, 255, 255, 1);
 }
-.heit2{
-    color:rgba(255, 255, 255, 1);
+
+.heit2 {
     text-align: center;
     padding: 1em;
+    color: rgba(255, 255, 255, 1);
 }
-.heit3{
-    color:rgba(255, 255, 255, 1);
+
+.heit3 {
     position: absolute;
     top: 1em;
     right: 1%;
+    color: rgba(255, 255, 255, 1);
 }
-main{
-    background-color:rgba(255, 255, 255, 1);
+
+main {
     height: 50px;
     margin: 0.8em 0;
-}
-.logo1{
-    width: 15px;
-    margin: 10px 19px;
-    float: left;
-}
-.logo2{
-    width: 15px;
-    margin: 10px 19px;
-    float: left;
-}
-main input{
-  
-  height: 25px;
-  width: 50%;
-  border-top: 0;
-  border-bottom: 0;
-  border-right: 0;
-  padding-left: 25px;
-  outline: none;
-  border-width: 0 1px;
-  margin-top: 10px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
-footer{
+.logo1 {
+    float: left;
+    width: 15px;
+    margin: 10px 19px;
+
+}
+
+.logo2 {
+    float: left;
+    width: 15px;
+    margin: 10px 19px;
+}
+
+main input {
+    height: 25px;
+    width: 50%;
+    margin-top: 10px;
+    border-right: 0;
+    border-width: 0 1px;
+    padding-left: 25px;
+    outline: none;
+}
+
+footer {
     height: 56px;
-    background-color:rgba(95, 192, 205, 1);
+    background-color: rgba(95, 192, 205, 1);
 }
 
-footer div{
+footer div {
     padding: 19px;
     text-align: center;
     letter-spacing: 15px;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
-footer a{
+footer a {
     float: right;
     margin: 10px;
-    color:rgba(95, 192, 205, 1);
+    color: rgba(95, 192, 205, 1);
 }
