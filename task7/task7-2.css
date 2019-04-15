@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(240, 240, 240, 1);
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(41, 189, 224, 1);
+}
+.label{
+    width: 28px;
+    height: 20px;
+    margin-left: 10px;
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.tag{
+    width: 28px;
+    height: 2px;
+    margin-top: 9px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    height: 100%;
+}
+.caption{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 80px;
+    margin: 20px 5vw;
+    border: 1px solid rgba(201, 201, 201, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.mark{
+    font-size: 20px;
+    color: rgba(154, 154, 154, 1);
+}
+.tally{
+    border-top: 3px solid rgba(231, 231, 231, 1);
+    width: 15px;
+    border-right: 3px solid rgba(231, 231, 231, 1);
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 8vw;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 55px;
+    margin: 0 5vw;
+    border: 1px solid rgba(201, 201, 201, 1);
+    border-bottom: 1px solid rgba(251, 180, 53, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.headline{
+    font-size: 20px;
+    color: rgba(251, 180, 53, 1);
+}
+.header{
+    width: 90vw;
+    height: 100vh;
+    margin: 0 5vw;
+    border: 1px solid rgba(201, 201, 201, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72vw;
+    height: 75px;
+    margin: 13px 9vw;
+    background-color: rgba(105, 209, 233, 1);
+}
+.titles{
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+.una{
+    display: flex;
+    justify-content: center;
+}
+.hoja{
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    transform: rotate(-90deg);
+    border-width: 5vw;
+    border-style: solid;
+    text-decoration:none;
+    border-color: rgba(251, 180, 53, 1) transparent transparent transparent;
+}
+.ico{
+    display: flex;
+    justify-content: center;
+
+}
+.icon{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 3px;
+    background-color: rgba(105, 209, 233, 1);
+}
+.roundness{
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    border-radius: 5px;
+    background-color: rgba(240, 240, 240, 1)
+
+}

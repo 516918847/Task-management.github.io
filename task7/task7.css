@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    background-color: rgba(41, 189, 224, 1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.menu {
+    width: 27px;
+    height: 29px;
+    margin-left: 7px;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.rail {
+    width: 21px;
+    height: 2px;
+    margin: 6px 2px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.vote {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.cross {
+    width: 2px;
+    height: 25px;
+    margin: 18px;
+    transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.rod {
+    width: 2px;
+    height: 25px;
+    transform: rotate(-88deg);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.setting {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+    background-color: rgb(185, 233, 245);
+}
+
+.letter {
+    margin-left: 26px;
+    font-size: 13px;
+}
+.start{
+    margin-right: 10px;
+    width: 33px;
+}
+.play{
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    opacity: 0;
+    transform: rotate(180deg);
+}
+.trigon{
+    margin: -4px 0 20px 24px;
+}
+.portrait{
+    font-size: 14px;
+    color: aliceblue;
+}
+.hour{
+    margin-bottom: 10vw;
+    display: flex;
+    justify-content: space-around;
+}
+.space{
+    border: 1vw solid rgba(255, 255, 255, 1);
+    background-color: rgba(245, 201, 123, 1);
+}
+.people{
+    width: 20vw;
+    height: 16vw;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    padding: 1vh;
+    font-size: 3vw;
+    text-align: center;
+    background-color: rgba(26, 153, 183, 1);
+}
+.logo1{
+    width: 4vw;
+    height: 4vw;
+    background: url('css_sprites.png') no-repeat 65.574% 50%/21vw;
+}
+.logo2{
+    width: 4vw;
+    height: 4vw;
+    background: url('css_sprites.png') no-repeat 34.426% 50%/21vw;
+}
+.logo3{
+    width: 4vw;
+    height: 4vw;
+    background: url('css_sprites.png') no-repeat 96.721% 50%/21vw;
+}
+.logo4{
+    width: 4vw;
+    height: 4vw;
+    background: url('css_sprites.png') no-repeat 3.279% 50%/21vw;
+}
+
+.title{
+    display:none; 
+}
+.headline{
+    padding: 2vw 0;
+    margin-left: -2vw;
+    position: absolute;
+    display:flex;
+}
+.d{
+    margin: 0 1vw;
+}
+.space:hover .title{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    bottom: 0;
+    position: fixed;
+    background-color:rgba(41, 189, 224, 1);
+}
+.foot{
+    padding: 7px 28vw;
+    color: aliceblue;
+    text-decoration:none;
+    background-color: rgba(251, 180, 53, 1);
+
+}

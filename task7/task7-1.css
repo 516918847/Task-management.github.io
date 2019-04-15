@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 62vh;
+    background-color: rgba(41, 189, 224, 1);
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom:1px solid rgba(255, 255, 255, 1);
+}
+.home{
+    width: 26px;
+    height: 21px;
+    margin-left: 10px;
+    background: url('css_sprites (1).png') -10px -10px;
+}
+.game{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.right{
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+    background: url('css_sprites (1).png') -56px -10px;
+}
+.trophy{
+    display: flex;
+    justify-content: center;
+}
+.print{
+    width: 194px;
+    height: 122px;
+    margin-top: 15px;
+}
+.state{
+    margin-left: 41px;
+    margin-right: 23px;
+    color: rgba(255, 200, 101, 1);
+}
+.character{
+    margin-top: 20px;
+}
+.letter{
+    margin-left: 41px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    overflow: auto;
+    margin-top: 62vh;
+    margin-bottom: 10vh;
+}
+.first{
+    border-bottom:1px solid rgba(166, 166, 166, 1);
+}
+.word{
+    margin-left: 41px;
+    font-size: 20px;
+}
+.floor{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10%;
+    font-size: 14px;
+    color: rgba(166, 166, 166, 1);
+}
+.second{
+    margin: 10px 0;
+}
+.ground{
+    margin-left: 41px;
+    color: rgba(166, 166, 166, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    height: 71px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(41, 189, 224, 0.5);
+}
+.mark{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.the{
+    text-align: center;
+    width: 80px;
+    padding: 20px 7vw;
+    border-radius: 10px;
+    text-decoration:none;
+    background-color: rgba(246, 111, 111, 1);
+    color: aliceblue;
+}
+.side{
+    padding: 20px 7vw;
+    border-radius: 10px;
+    text-decoration:none;
+    background-color: rgba(251, 180, 53, 1);
+    color: aliceblue;
+}
