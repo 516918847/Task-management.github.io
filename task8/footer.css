@@ -1,0 +1,36 @@
+footer {
+    background-color: rgba(38, 162, 111, 1);
+}
+
+.baise {
+
+    font-size: 10px;
+    color: #fff;
+}
+
+.jineng {
+    margin-top: 20px;
+}
+
+.wangzhan {
+    margin: 20px 0;
+}
+
+.caochuang {
+    margin-top: 10px;
+}
+
+.youxi {
+    margin-top: 10px;
+}
+
+.guanyu1 {
+    margin-top: 50px;
+}
+
+.all {
+    border-top: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(38, 162, 111, 1);
+}
