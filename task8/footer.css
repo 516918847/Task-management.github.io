@@ -41,3 +41,6 @@ footer {
 .writer{
     margin-top:15px;
 }
+.baise:hover{
+    text-decoration:underline;
+}
