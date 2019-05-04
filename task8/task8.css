@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    background-color: rgba(8, 1, 3, 0.05)
+}
+
+.coze {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coze .phone {
+    color: rgba(41, 176, 120, 1);
+}
+
+.coze .telephony {
+    display: flex;
+}
+
+.coze .telephony .chat {
+    width: 23px;
+    height: 22px;
+    background: url('css_sprites.png') -137px -10px;
+}
+
+.coze .telephony .chew {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.coze .telephony .the {
+    width: 23px;
+    height: 22px;
+    background: url('css_sprites.png') -94px -10px;
+}
+
+.navbar-brand {
+    margin-left: 20vw;
+}
+
+.tuijiang {
+    text-align: center;
+}
+
+@media screen and (min-width: 760px) {
+    .navbar-nav {
+        position: absolute;
+        right: 20vw;
+    }
+}
+
+.bg-success {
+    background-color: rgba(41, 176, 120, 1) !important;
+}
+
+.mark {
+    height: 13vw;
+    background: url(kuairen.png)no-repeat 0 0/100%;
+}
+.carousel {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tag {
+    margin-top: 35px;
+}
+
+.tag .gaoxiao {
+    text-align: center;
+
+}
+
+.tag  .guifang {
+    margin-top: 10px;
+}
+
+.tag .figure {
+
+    text-align: center;
+    margin-top: 33px;
+}
+
+.tag .figure .portrait {
+    height: 16px;
+
+}
+
+
+
+
+
+
+
+/* 下面的是如何学习 */
+.tally {
+    margin: 50px 0;
+    text-align: center;
+}
+.breadth {
+    margin: 20px 0;
+}
+.breadth  .referral {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.breadth  .referral .digit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    flex-shrink: 0;
+    margin: -5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.breadth  .referral  .gangwei {
+    display: flex;
+    align-items: center;
+}
+.breadth  .referral .trigon {
+    width: 30px;
+    height: 35px;
+    background: url('css_sprites.png') -357px 77px/191px 34px;
+
+}
+@media(min-width: 1200px) {
+    .figure {
+        border-left: 1px dashed #000;
+    }
+}
+
+
+
+
+
+/* 优秀学员展示 */
+.setting {
+    margin: 5px 16px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+.setting  .first{
+    width: 80px;
+    margin: 19px;
+}
+
+@media (min-width:580px) {
+    .setting {
+        flex: 0 0 44%;
+        max-width: 44%;
+    }
+}
+
+@media (min-width: 992px) {
+    .setting {
+        flex: 0 0 21.666667%;
+        max-width: 21.666667%;
+    }
+}
+
+
+/* 小圆点 */
+.circle {
+    margin: 10px 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle .ringc {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgba(41, 176, 120, 1);
+}
+
+.circle .ring {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+/* 战略合作企业 */
+.business {
+    text-align: center;
+    margin: 30px 0;
+}
+
+@media (min-width: 992px) {
+    .tt {
+        flex: 0 0 19.666667%;
+        max-width: 19.666667%;
+    }
+}
+
+.tt {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.gaoxiao:hover {
+    box-shadow: 0px 1px 7px 0px rgba(8, 1, 3, 0.1);
+}
+
+.figure:hover {
+    box-shadow: 0px 1px 7px 0px rgba(8, 1, 3, 0.1);
+}
+
+.tt:hover {
+    box-shadow: 0px 1px 7px 0px rgba(8, 1, 3, 0.1);
+}
+
+.tt  .treasure {
+    background: url(logo7.png) center no-repeat;
+    height: 150px;
+    width: 100%;
+    background-size: 147px;
+    background-color: #fff;
+
+}
+
+.tt  .jinshan {
+    background: url(logo8.png) center no-repeat;
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.tt  .huanxin {
+    background: url(logo9.png) center no-repeat;
+    height: 150px;
+    width: 100%;
+    background-size: 127px;
+    background-color: #fff;
+
+}
+
+.tt  .ronglian {
+    background: url(logo10.png) center no-repeat;
+    height: 150px;
+    width: 100%;
+    background-size: 143px;
+    background-color: #fff;
+
+}
+
+.tt  .qiniu {
+    background: url(logo11.png) center no-repeat;
+    height: 150px;
+    width: 100%;
+    background-size: 120px;
+    background-color: #fff;
+
+
+}
+
+
+/* 友情链接 */
+.gongzuo {
+    display: flex;
+   justify-content: center;
+}
+.gongzuo .greta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gongzuo .greta .tittle {
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: rgba(153, 153, 153, 1);
+}
+.gongzuo .greta .story{
+    font-size: 10px;
+}
+@media (min-width: 992px){
+.greta {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 9.333333%;
+    max-width: 9.333333%;}}
+.greta:hover {
+    text-decoration:underline;
+}
