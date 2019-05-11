@@ -1,0 +1,243 @@
+.home {
+  margin: 30px 0;
+}
+
+.home .page {
+  color: #29b078;
+}
+
+.direction {
+  padding: 30px 0;
+  color: #999999;
+  border-top: 1px solid #d0d6d9;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+.direction .empolder {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.direction .empolder:hover {
+  color: #fff;
+  background-color: #29b078;
+}
+
+.nose {
+  margin: 0;
+  padding: 30px 0;
+  border-bottom: 1px solid #d0d6d9;
+}
+
+.singularity {
+  margin-top: 30px;
+  position: relative;
+}
+
+.front {
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #edf1f2;
+}
+
+.front .leading {
+  width: 60px;
+  float: left;
+  margin: 6px;
+}
+
+.front .end {
+  margin-top: 15px;
+  padding-left: 12px;
+  overflow: hidden;
+}
+
+.front .front-end {
+  margin-top: 20px;
+  font-size: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.doorsill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44px;
+  border-left: 1px solid #edf1f2;
+  border-right: 1px solid #edf1f2;
+  border-bottom: 1px solid #edf1f2;
+  background-color: #fff;
+}
+
+.doorsill .threshoid {
+  width: 50%;
+  padding: 12px 0;
+  font-size: 13px;
+  border-right: 1px solid #edf1f2;
+}
+
+.doorsill .threshoid .sill {
+  margin: 0 10px;
+  color: #999999;
+}
+
+.doorsill .grow {
+  width: 50%;
+  font-size: 13px;
+}
+
+.doorsill .grow .difficulty {
+  margin: 0 10px;
+  color: #999999;
+}
+
+.doorsill .red {
+  color: #f01400;
+}
+
+.doorsill .difficulty {
+  margin: 0 10px;
+  font-size: 13px;
+  color: #999999;
+}
+
+.for {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+.for .many {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 150px;
+  border-right: 1px solid #edf1f2;
+  border-left: 1px solid #edf1f2;
+  color: #999999;
+}
+
+.for .years {
+  width: 50%;
+}
+
+.for .years .after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border-right: 1px solid #edf1f2;
+}
+
+.for .years .that {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border-top: 1px solid #edf1f2;
+  border-bottom: 1px solid #edf1f2;
+  border-right: 1px solid #edf1f2;
+}
+
+.study {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #edf1f2;
+  background-color: #fff;
+}
+
+.study .learn {
+  color: #f01400;
+}
+
+.emulate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 10px;
+  color: #999999;
+  background-color: #fff;
+}
+
+.rotation {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.rotation .gown {
+  text-align: center;
+  margin: 9px 0;
+  font-size: 23px;
+}
+
+.rotation .within {
+  font-size: 20px;
+  padding: 0 39px;
+}
+
+.singularity:hover .rotation {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+@media (min-width: 1200px) {
+  .technical {
+    width: 23%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .singularity {
+    margin: 20px 55px;
+    width: 36%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .technical {
+    width: 43%;
+  }
+}
+/*# sourceMappingURL=task-3.css.map */

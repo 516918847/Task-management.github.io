@@ -1,0 +1,89 @@
+.bosom {
+  width: 100%;
+}
+
+.tag {
+  margin: 13px 0;
+}
+
+.tag .business {
+  color: #29b078;
+}
+
+.pinyin .greenc {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.pinyin .county {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.pinyin .county .mall {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #ff650e;
+  margin-right: 10px;
+}
+
+.pinyin .county .green {
+  padding: 20px 0;
+  color: #29b078;
+}
+
+.pinyin .county:hover .green {
+  color: #ff650e;
+}
+
+.pinyin .county:hover .mall {
+  background-color: #ff650e;
+}
+
+.chinese {
+  padding: 37px;
+  margin-top: 48px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.chinese .tudoulogo {
+  float: left;
+  width: 10vw;
+}
+
+.chinese .tudouwang {
+  margin: 14px;
+  color: #999999;
+}
+
+.video {
+  padding: 37px;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  color: #999999;
+  background-color: #fff;
+}
+
+.videoo {
+  padding: 37px 37px 60px;
+  margin-bottom: 90px;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  color: #999999;
+  background-color: #fff;
+}
+/*# sourceMappingURL=task14-2.css.map */

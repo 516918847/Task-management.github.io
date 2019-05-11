@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: rgba(8, 1, 3, 0.05)
+}
+
+.coze {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.phone {
+    color: rgba(41, 176, 120, 1);
+}
+
+.telephony {
+    display: flex;
+}
+
+.chat {
+    width: 23px;
+    height: 22px;
+    background: url(logo/css_sprites.png) -137px -10px;
+}
+
+.chew {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
+    background: url('logo/css_sprites.png') -10px -10px;
+}
+
+.the {
+    width: 23px;
+    height: 22px;
+    background: url('logo/css_sprites.png') -94px -10px;
+}
+
+.label {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 70px;
+    background-color: rgba(41, 176, 120, 1);
+
+}
+
+.label .tag {
+    padding: 19px 6px;;
+    text-decoration: none;
+    color: #fff;
+}
+input{
+    display: none;
+}
+.click{
+    width: 32px;
+    height: 34px;
+    border-radius: 3px;
+    right: 10vw;
+    position: absolute;
+    background-color: rgba(8, 1, 3, 0.15);
+}
+.click .your{
+    height: 6px;
+    width: 21px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.click .will{
+    width: 21px;
+    height: 3px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: rgba(51, 51, 51, 1);
+}
+.menu{
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    top: 83px;
+    padding: 0;
+    background-color: rgba(41, 176, 120, 1);
+}
+.menu li{
+    margin: 10px 0;
+}
+.menu .down{
+        text-decoration: none; 
+        color: #fff;
+}
+input:checked~  .menu{
+    visibility: visible;
+    transition: 1s;
+}
+input:checked~  header{
+    margin-bottom: 132px;
+}
+ .menu li:hover {
+    border-bottom: 1px solid #fff;
+}
+.mark a:hover{
+   border-bottom: 2px solid;
+}
+@media (max-width: 768px) {
+    .mark {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .label img {
+      position: absolute;
+      left: 20vw;
+    }
+  }
+  @media (min-width: 768px) {
+    .click {
+     display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .menu{
+        margin-bottom: 0;
+     display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    header{
+        margin-bottom: 0 !important;
+    }
+  }

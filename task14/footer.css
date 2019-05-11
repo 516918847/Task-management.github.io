@@ -1,0 +1,69 @@
+footer {
+    background-color: rgba(38, 162, 111, 1);
+}
+
+.baise {
+
+    font-size: 12px;
+    color: #fff;
+}
+
+.jineng {
+    margin-top: 20px;
+}
+
+.wangzhan {
+    margin: 20px 0;
+}
+
+.caochuang {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.youxi {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.guanyu1 {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+.us{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 0 6px;
+    margin: 0 5px;
+}
+.strongest{
+    margin-right: 10px;
+}
+.all {
+    font-size: 14px;
+    border-top: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(38, 162, 111, 1);
+}
+.erwuima{
+    width: 60px;
+}
+.writer{
+    margin-top:15px;
+}
+.baise:hover{
+    text-decoration:underline;
+}
+.guanyu1 span:hover{
+    text-decoration:underline;
+}
+.caochuang span:hover{
+    text-decoration:underline;
+}
+.youxi span:hover{
+    text-decoration:underline;
+}

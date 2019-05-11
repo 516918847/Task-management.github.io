@@ -1,0 +1,84 @@
+$colorb:#fff;
+$colorl:rgba(41, 176, 120, 1);
+$colorh:rgba(230, 230, 230, 1);
+.bosom {
+    width: 100%;
+}
+
+.tag {
+    margin: 13px 0;
+
+    .business {
+        color: $colorl;
+    }
+}
+
+.pinyin {
+    .greenc{
+        text-align: center;
+        padding: 10px 0;
+        border: 1px solid $colorh;
+        background-color: $colorb;
+    }
+    .county {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid $colorh;
+        border-right: 1px solid $colorh;
+        background-color: $colorb;
+
+        .mall {
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 101, 14, 1);
+            margin-right: 10px;
+        }
+        .green{
+            padding: 20px 0;
+            color: $colorl;
+        }
+        &:hover  .green{
+             color: rgba(255, 101, 14, 1);
+        }
+        &:hover .mall{
+            background-color: rgba(255, 101, 14, 1);
+        }
+    }
+}
+
+.chinese{
+    padding: 37px;
+    margin-top: 48px;
+    background-color: $colorb;
+    border: 1px solid $colorh;
+    .tudoulogo{
+        float: left;
+        width: 10vw;
+    }
+    .tudouwang{
+        margin: 14px;
+        color: rgba(153, 153, 153, 1);
+    }
+}
+.video{
+     padding: 37px;
+     border-left: 1px solid $colorh;
+     border-right: 1px solid $colorh;
+     color: rgba(153, 153, 153, 1);
+     background-color: $colorb;
+}
+.videoo{
+    padding: 37px 37px 60px;
+    margin-bottom: 90px;
+    border-left: 1px solid $colorh;
+    border-right: 1px solid $colorh;
+    color: rgba(153, 153, 153, 1);
+    background-color: $colorb;
+}
+
+
+
+
+

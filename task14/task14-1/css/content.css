@@ -1,0 +1,270 @@
+.norm .gaoxiao {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.norm .gaoxiao .gaoxiaoc {
+  margin-top: 10px;
+}
+
+.norm .xuexi {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.norm .xuexi .total {
+  margin: 13px 0;
+}
+
+@media (max-width: 1199px) {
+  .norm .xuexi {
+    margin-top: -94px;
+  }
+}
+
+@media (max-width: 767px) {
+  .norm .xuexi {
+    margin-top: 70px;
+  }
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.rotundity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+.rotundity .roudness {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background: white;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(8, 1, 3, 0.15);
+          box-shadow: 0px 1px 2px 0px rgba(8, 1, 3, 0.15);
+}
+
+.rotundity .triangle {
+  font-size: 10px;
+}
+
+.rotundity .trigon {
+  width: 25px;
+}
+
+.technical {
+  margin: 25px 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.technical .singer {
+  margin: 12px 0;
+}
+
+.technical .adviser {
+  padding: 0 36px;
+}
+
+@media (min-width: 1200px) {
+  .technical {
+    width: 23%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .technical {
+    width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .technical {
+    width: 43%;
+  }
+}
+
+.musical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.musical .vocalist {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #29b078;
+}
+
+.musical .dota {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.tt {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.tt .treasure {
+  background: url(../logo/logo7.png) center no-repeat;
+  height: 150px;
+  width: 100%;
+  background-size: 147px;
+  background-color: #fff;
+}
+
+.tt .jinshan {
+  background: url(../logo/logo8.png) center no-repeat;
+  height: 150px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.tt .huanxin {
+  background: url(../logo/logo9.png) center no-repeat;
+  height: 150px;
+  width: 100%;
+  background-size: 127px;
+  background-color: #fff;
+}
+
+.tt .ronglian {
+  background: url(../logo/logo10.png) center no-repeat;
+  height: 150px;
+  width: 100%;
+  background-size: 143px;
+  background-color: #fff;
+}
+
+.tt .qiniu {
+  background: url(../logo/logo11.png) center no-repeat;
+  height: 150px;
+  width: 100%;
+  background-size: 120px;
+  background-color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .tt {
+    width: 19.666667%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .tt {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .tt {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .bb {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .bb {
+    width: 100%;
+  }
+}
+
+.technical:hover {
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.15);
+          box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.15);
+}
+
+.xuexi:hover {
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.15);
+          box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.15);
+}
+
+.gaoxiao:hover {
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.15);
+          box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.15);
+}
+
+.tt:hover {
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(8, 1, 3, 0.1);
+          box-shadow: 0px 1px 7px 0px rgba(8, 1, 3, 0.1);
+}
+
+.friendship {
+  background-color: #fff;
+}
+
+.friendship .inter {
+  text-align: center;
+  margin: 19px 0;
+  font-size: 26px;
+}
+
+.friendship .set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.friendship .set .combined {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #999999;
+}
+
+.friendship .set .pursuit {
+  width: 64px;
+}
+
+.friendship .set:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  .set {
+    width: 10%;
+  }
+}
+/*# sourceMappingURL=content.css.map */

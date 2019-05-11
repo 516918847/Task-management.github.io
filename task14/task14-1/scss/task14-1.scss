@@ -1,0 +1,95 @@
+$colorb:#fff;
+.carousel {
+    overflow: hidden;
+    position: relative;
+
+    .map {
+        width: 303vw;
+        position: relative;
+        animation: myfirst 10s;
+        animation-iteration-count: infinite;
+
+        .picture {
+            margin-left: -5px;
+            width: 100vw;
+        }
+    }
+
+    .greater {
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        top: 12vw;
+        left: 10%;
+        transform: rotate(-45deg);
+        border-top: 2px solid $colorb;
+        border-left: 2px solid $colorb;
+
+    }
+
+    .than {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 12vw;
+        right: 10%;
+        transform: rotate(45deg);
+        border-top: 2px solid $colorb;
+        border-right: 2px solid $colorb;
+    }
+    .smal {
+        position: absolute;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 2vw;
+        left: 47vw;
+        background-color: $colorb;
+    }
+    .small {
+        position: absolute;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 2vw;
+        left: 50vw;
+        background-color: $colorb;
+    }
+    .smalll {
+        position: absolute;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 2vw;
+        left: 44vw;
+        background-color: $colorb;
+    }
+}
+@keyframes myfirst {
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: 0;
+    }
+
+    30% {
+        left: -100vw;
+    }
+
+    40% {
+        left: -100vw;
+    }
+
+    60% {
+        left: -100vw;
+    }
+}
+
+
+
+
+
+
+
