@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  background-color: #29bde0;
+}
+
+.tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.tag .label {
+  width: 33px;
+  height: 37px;
+  margin-left: 10px;
+  border: 2px solid #fff;
+}
+
+.tag .label .mark {
+  height: 3px;
+  width: 27px;
+  margin-top: 7px;
+  margin-left: 3px;
+  background-color: #fff;
+}
+
+.tag .label .tally {
+  height: 8px;
+  width: 27px;
+  margin-top: 7px;
+  margin-left: 3px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.tag .counter {
+  font-size: 35px;
+  color: #fff;
+}
+
+.tag .block {
+  width: 31px;
+  height: 3px;
+  margin-right: 10px;
+  -webkit-transform: rotate(49deg);
+          transform: rotate(49deg);
+  background-color: #fff;
+}
+
+.tag .block .jam {
+  width: 31px;
+  height: 3px;
+  -webkit-transform: rotate(85deg);
+          transform: rotate(85deg);
+  background-color: #fff;
+}
+
+.spea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 62px;
+  background-color: #b9e9f5;
+}
+
+.spea .king {
+  margin-left: 60px;
+}
+
+.spea .says {
+  width: 44px;
+  margin-right: 10px;
+}
+
+.spea .play {
+  position: absolute;
+  right: 5px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  opacity: 0;
+}
+
+.click {
+  margin: -4px 0 20px 44px;
+  color: #fff;
+}
+
+main {
+  margin-bottom: 24vh;
+}
+
+.water {
+  margin: 5vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.water .people {
+  position: relative;
+  border: 0.5vw solid #fff;
+  background-color: #f5c97b;
+}
+
+.water .people .min {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 4vw;
+  height: 15vw;
+  width: 18vw;
+}
+
+.water .people .shui {
+  font-size: 2vw;
+  text-align: center;
+  background-color: #1a99b7;
+}
+
+.water .people .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  width: 18vw;
+  margin-top: 1vw;
+}
+
+.water .people .icon .ico {
+  height: 3vw;
+  width: 3vw;
+}
+
+.water .people:hover .icon {
+  visibility: visible;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 16vh;
+  background-color: #29bde0;
+}
+
+footer .pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 66vw;
+  height: 8vh;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fbb435;
+}
+/*# sourceMappingURL=task13.css.map */

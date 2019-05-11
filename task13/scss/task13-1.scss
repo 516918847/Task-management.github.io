@@ -1,0 +1,112 @@
+$colorb:#fff;
+$colorl:rgba(41, 189, 224, 1);
+$colorh:rgba(166, 166, 166, 1);
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid $colorb;
+    color: $colorb;
+    background-color: $colorl;
+
+    .play {
+        height: 25px;
+        margin: 0 10px;
+    }
+}
+.woman{
+    margin-top: 357px;
+    margin-bottom: 10vh;
+}
+.mark {
+    position: fixed;
+    width: 100%;
+    top: 56px;
+    background-color: $colorl;
+
+    .tag {
+        text-align: center;
+
+        .label {
+            width:120px;
+            margin-top: 20px;
+        }
+    }
+
+    .tally {
+        margin: 0 15vw 20px;
+        color: rgba(255, 200, 101, 1);
+    }
+
+    .counter {
+        margin: 0 15vw;
+        padding-bottom: 20px;
+        color: $colorb;
+    }
+}
+
+.first {
+    padding: 0 15vw;
+    color: $colorh;
+    border-bottom: 1px solid $colorh;
+
+    .day {
+        display: flex;
+        justify-content: space-between;
+
+        .time {
+            color: rgba(81, 81, 81, 1);
+        }
+
+        .hour {
+            font-size: 12px;
+        }
+    }
+
+    .killer {
+        font-size: 13px;
+        padding: 12px 0;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    background-color: rgba(41, 189, 224, 0.5);
+
+    .recur {
+        background-color: rgba(246, 111, 111, 1);
+        color: #fff;
+        width: 28vw;
+        height: 35px;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+    .upload{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28vw;
+        height: 36px;
+        text-decoration: none;
+        color: $colorb;
+        background-color: #fbb435;
+    }
+}

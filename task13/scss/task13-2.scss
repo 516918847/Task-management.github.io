@@ -1,0 +1,170 @@
+$colorl:rgba(41, 189, 224, 1);
+$colorb:#fff;
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+
+    input {
+        display: none;
+    }
+}
+
+.affiche {
+    padding: 0;
+    width: 50%;
+    left: -50%;
+    height: 100%;
+    margin: 0;
+    transition: 1s;
+    text-align: center;
+    position: absolute;
+    background-color: $colorb;
+
+    .mark {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(231, 231, 231, 1);
+        color: $colorl;
+
+        .tally {
+            height: 10px;
+            width: 10px;
+            margin-top: 6px;
+            transform: rotate(45deg);
+            border-top: 1px solid $colorl;
+            border-right: 1px solid $colorl;
+
+        }
+
+        .setting {
+            margin-left: -2px;
+        }
+
+        .set {
+            margin-left: -3px;
+        }
+
+    }
+}
+
+
+.placard {
+    transition: 1s;
+    position: relative;
+    padding: 0;
+    width: 100%;
+
+    header {
+        display: flex;
+        align-items: center;
+        height: 42px;
+        background-color: $colorl;
+
+        .label {
+            height: 22px;
+            width: 30px;
+            margin-left: 10px;
+            border-top: 2px solid $colorb;
+            border-bottom: 2px solid $colorb;
+
+
+            .tag {
+                height: 2px;
+                width: 30px;
+                margin-top: 10px;
+                background-color: $colorb;
+            }
+        }
+    }
+}
+
+input:checked~.placard {
+    padding-left: 50%;
+}
+
+input:checked~.affiche {
+    left: 0;
+}
+
+main {
+    margin: 0 15vw;
+
+    .game {
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        margin: 14px 0;
+        border: 1px solid rgba(201, 201, 201, 1);
+        background-color: $colorb;
+        color: rgba(154, 154, 154, 1);
+
+        .play {
+            height: 10px;
+            width: 10px;
+            right: 10px;
+            top: 26px;
+            border-top: 2px solid rgba(231, 231, 231, 1);
+            border-right: 2px solid rgba(231, 231, 231, 1);
+            position: absolute;
+            transform: rotate(45deg);
+        }
+    }
+
+    .recreation {
+        position: relative;
+        text-align: center;
+        border: 1px solid #c9c9c9;
+        background-color: $colorb;
+
+        .ghost {
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(251, 180, 53, 1);
+            color: rgba(251, 180, 53, 1);
+        }
+
+        .version {
+            margin: 20px 13vw;
+            padding: 20px 0;
+            color: $colorb;
+            background-color: $colorl;
+        }
+        .user{
+            font-size: 13px;
+        }
+
+        .trigon {
+            width: 0;
+            height: 0;
+            right: 0;
+            bottom: 189px;
+            transform: rotate(90deg);
+            border: 16px solid;
+            border-color: transparent transparent rgba(251, 180, 53, 1);
+            position: absolute;
+        }
+
+        .small {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+            .dots {
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background-color: rgba(105, 209, 233, 1);
+            }
+
+            .dota {
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                margin-left: 3px;
+                background-color: rgba(240, 240, 240, 1);
+            }
+        }
+
+    }
+}

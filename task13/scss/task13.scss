@@ -1,0 +1,157 @@
+// 此处变量
+$colorb:#fff;
+
+body {
+    margin: 0;
+    background-color: rgba(41, 189, 224, 1);
+}
+
+.tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+    .label {
+        width: 33px;
+        height: 37px;
+        margin-left: 10px;
+        border: 2px solid $colorb;
+
+        .mark {
+            height: 3px;
+            width: 27px;
+            margin-top: 7px;
+            margin-left: 3px;
+            background-color: $colorb;
+        }
+
+        .tally {
+            height: 8px;
+            width: 27px;
+            margin-top: 7px;
+            margin-left: 3px;
+            border-top: 3px solid $colorb;
+            border-bottom: 3px solid $colorb;
+        }
+    }
+
+    .counter {
+        font-size: 35px;
+        color: $colorb;
+    }
+
+    .block {
+        width: 31px;
+        height: 3px;
+        margin-right: 10px;
+        transform: rotate(49deg);
+        background-color: $colorb;
+
+        .jam {
+            width: 31px;
+            height: 3px;
+            transform: rotate(85deg);
+            background-color: $colorb;
+        }
+    }
+}
+
+.spea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    background-color: rgb(185, 233, 245);
+
+    .king {
+        margin-left: 60px;
+    }
+
+    .says {
+        width: 44px;
+        margin-right: 10px;
+    }
+
+    .play {
+        position: absolute;
+        right: 5px;
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+}
+
+.click {
+    margin: -4px 0 20px 44px;
+    color: $colorb;
+}
+main{
+    margin-bottom: 24vh;
+}
+.water {
+    margin: 5vw 0;
+    display: flex;
+    justify-content: space-around;
+
+    .people {
+        position: relative;
+        border: 0.5vw solid $colorb;
+        background-color: rgba(245, 201, 123, 1);
+
+        .min {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4vw;
+            height: 15vw;
+            width: 18vw;
+        }
+
+        .shui {
+            font-size: 2vw;
+            text-align: center;
+            background-color: rgba(26, 153, 183, 1);
+        }
+
+        .icon {
+            display: flex;
+            visibility: hidden;
+            justify-content: space-around;
+            position: absolute;
+            width: 18vw;
+            margin-top: 1vw;
+
+            .ico {
+                height: 3vw;
+                width: 3vw;
+            }
+        }
+
+        &:hover .icon{
+            visibility: visible;
+        }
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 16vh;
+    background-color: rgba(41, 189, 224, 1);
+    .pass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66vw;
+        height: 8vh;
+        text-decoration: none;
+        color: $colorb;
+        background-color: rgba(251, 180, 53, 1);
+
+
+    }
+    
+}
