@@ -1,0 +1,516 @@
+body {
+    margin: 0;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgba(29, 122, 217, 1);
+}
+
+.label .tag {
+    justify-content: space-between;
+}
+
+.label .tag .sign {
+    padding: 10px 0;
+    padding-left: 8px;
+    border-left: 1px solid;
+}
+
+.label .tag .login {
+    padding: 10px 19px;
+    color: rgba(51, 51, 51, 1);
+    background-color: #fff;
+}
+
+.label .tag .logging {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+.navbar-brand {
+    margin-left: 20vw;
+}
+
+.tuijiang {
+    text-align: center;
+}
+
+@media screen and (min-width: 760px) {
+    .navbar-nav {
+        position: absolute;
+        right: 20vw;
+    }
+}
+@media screen and (min-width: 760px) {
+    .bg-success{
+        height: 50px;
+    }
+}
+
+.bg-success {
+   
+    background-color: rgba(249, 249, 249, 1) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(51, 51, 51, 1);
+    
+}
+.navbar-dark .navbar-toggler-icon{
+    background-color: rgba(204, 204, 204, 1);
+}
+a:hover{
+    border-radius: 4px;
+    background-color: rgba(29, 122, 217, 1);
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.computer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+.computer .comfirm {
+    width: 100px;
+    position: relative;
+}
+@media (max-width: 992px) and (min-width: 0) {
+    .comfirm{
+        
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+}
+@media (max-width: 992px) and (min-width: 0) {
+    .computer{
+        
+       height: 250px;
+    }
+}
+.computer .comfirm .digit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: 45%;
+    color: #fff;
+    background-color: rgba(204, 204, 204, 1);
+}
+
+.computer .comfirm .rail {
+    width: 100%;
+    height: 6px;
+    margin: 8px 0;
+    background-color: rgba(204, 204, 204, 1);
+
+}
+
+.computer .comfirm .confirm {
+    color: rgba(204, 204, 204, 1);
+}
+
+.computer .comfirm:hover .digit {
+    background-color: rgba(255, 127, 2, 1);
+
+}
+
+.computer .comfirm:hover .rail {
+    background-color: rgba(255, 127, 2, 1);
+}
+
+.computer .comfirm:hover .confirm {
+    color: rgba(255, 127, 2, 1);
+}
+
+
+
+
+
+
+
+
+
+.ensure {
+    margin-top: 30px;
+}
+
+.ensure .carton {
+    border-left: 3px solid rgba(29, 122, 217, 1);
+}
+
+.ensure .ascertain {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.ensure .ascertain .trunk {
+    margin: 0 10px;
+    height: 17px;
+}
+
+
+
+.case {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+.case .see {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 130px;
+    margin-right: 10px;
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+.case .see .details {
+    margin-right: 17px;
+    margin-left: 16px;
+}
+
+.case .see .menu {
+    text-align: center;
+    position: absolute;
+    display: none;
+    margin-top: 28px;
+    width: 130px;
+}
+
+.case .see:hover .menu {
+    display: block;
+}
+
+.case .see .menu div:hover {
+    background-color: aqua
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rdo {
+    width: 20px;
+    height: 0px;
+    margin-right: 6px;
+    position: relative;
+}
+
+.rdo:before,
+.rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+.rdo:before {
+    top: 3px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(213, 213, 213, 1);
+    
+}
+
+.rdo:after {
+    top: 9px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.rdo:checked:before {
+    background-color: rgba(29, 122, 217, 1);
+}
+
+.box {
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.walking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+
+.walking .diameter {
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .diameter {
+        display: flex;
+        height: 40px;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .length{
+        -webkit-box-flex: 0;
+        flex: 0 0 17.666667%;
+        max-width: 17.666667%;
+    }
+}
+
+.longitude {
+    width: 90px;
+}
+
+.walking .click {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 130px;
+    margin-right: 10px;
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+
+.walking .click .url {
+    margin-right: 17px;
+    padding-left: 16px;
+}
+
+.walking .click .about {
+    text-align: center;
+    position: absolute;
+    display: none;
+    margin-top: 28px;
+    width: 130px;
+}
+
+.walking .click:hover .about {
+    display: block;
+}
+
+.walking .click .about div:hover {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+.grade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100px;
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+
+@media (max-width: 992px) and (min-width: 0) {
+    .grade {
+        height: 200px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 0) {
+    .high {
+        position: absolute;
+        right: 0;
+    }
+}
+
+.grade .quality {
+    display: flex;
+}
+
+.counter {
+    display: flex;
+}
+
+.three {
+    top: -17px;
+}
+
+.grade .high {
+    display: flex;
+    width: 130px;
+    margin-right: 10px;
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+
+.grade .high .gaslight {
+    margin-right: 17px;
+    padding-left: 16px;
+}
+
+.grade .high .thing {
+    text-align: center;
+    position: absolute;
+    display: none;
+    margin-top: 28px;
+    width: 130px;
+}
+
+.grade .high:hover .thing {
+    display: block;
+}
+
+.grade .high .thing div:hover {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.next .step {
+    padding: 10px 44px;
+    border-radius: 3px;
+    background-color: rgba(225, 80, 83, 1);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-top: 30px;
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.contact {
+    display: flex;
+}
+.contact .process{
+    margin: 0 20px
+}
+.shifting .contact div:hover{
+    color: rgba(29, 122, 217, 1);
+}
+.shifting .media div:hover{
+    color: rgba(29, 122, 217, 1);
+}
+.media {
+    display: flex;
+}
+.media .notice{
+    margin-left: 20px;
+}
+.work {
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(29, 122, 217, 1);
+}
+
+.sources {
+    display: flex;
+    justify-content: flex-end;
+}
