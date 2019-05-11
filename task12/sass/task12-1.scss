@@ -1,0 +1,152 @@
+$colourl:rgba(95, 192, 205, 1);
+$colourh:rgba(153, 153, 153, 1);
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    background-color: $colourl;
+
+    .label {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgba(85, 168, 179, 1);
+        color: #fff;
+    }
+
+    .mark {
+        padding: 10px;
+        border-radius: 5px;
+        color: $colourl;
+        background-color: #fff;
+    }
+
+    .counter {
+        position: absolute;
+        height: 22px;
+        right: 10px;
+    }
+}
+
+.tally {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $colourh;
+    font-size: 12px;
+
+    .location {
+        width: 33.3%;
+        padding: 10px 0;
+        text-align: center;
+        position: relative;
+
+        .site {
+            position: absolute;
+            top: 16px;
+            right: 4px;
+            border-width: 6px;
+            border-style: solid;
+            border-color: rgba(153, 153, 153, 1) transparent transparent transparent;
+        }
+        &:hover  .hows{
+            display: block;
+
+        }
+    }
+    .hows{
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+        list-style: none;
+        position: absolute;
+        display: none;
+        & li:hover{
+            background-color: aqua;
+        }
+    }
+    .seat{
+        border-right: 1px solid $colourh;
+        border-left: 1px solid $colourh;
+    }
+}
+.service{
+    height: 16vh;
+    border-bottom: 1px solid $colourh;
+    .date{
+        color: $colourh;
+        .calendar{
+            width: 16px;
+            margin: 14px 10px 0;
+        }
+    }
+    .menology{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin: 12px 0;
+        .time{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-left: 40px;
+        }
+        .hour{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin-right: 36px;
+            color: rgba(230, 59, 14, 1);
+        }
+        .than{
+            position: absolute;
+            height: 15px;
+            width: 15px;
+            top: 3px;
+            right: 10px;
+            transform: rotate(45deg);
+            border-top: 2px solid $colourl;
+            border-right: 2px solid $colourl;
+        }
+    }
+    .kalendar{
+        color: $colourh;
+        .coord{
+            width: 14px;
+            margin: 0 10px;
+        }
+    }
+}
+footer{
+    width: 100%;
+    background-color: rgba(248, 250, 251, 1);
+    .home{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 66px;
+        .page{
+            width: 25px;
+        }
+        .index{
+            font-size: 12px;
+            color: $colourl;
+        }
+        .minute{
+            width: 42px;
+        }
+        .notes{
+            font-size: 12px;
+            color: $colourh;
+        }
+
+    }
+}
+.dianji{
+    text-decoration: none;
+}

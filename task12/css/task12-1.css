@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 60px;
+  background-color: #5fc0cd;
+}
+
+header .label {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #55a8b3;
+  color: #fff;
+}
+
+header .mark {
+  padding: 10px;
+  border-radius: 5px;
+  color: #5fc0cd;
+  background-color: #fff;
+}
+
+header .counter {
+  position: absolute;
+  height: 22px;
+  right: 10px;
+}
+
+.tally {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #999999;
+  font-size: 12px;
+}
+
+.tally .location {
+  width: 33.3%;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+.tally .location .site {
+  position: absolute;
+  top: 16px;
+  right: 4px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #999999 transparent transparent transparent;
+}
+
+.tally .location:hover .hows {
+  display: block;
+}
+
+.tally .hows {
+  width: 100%;
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+  position: absolute;
+  display: none;
+}
+
+.tally .hows li:hover {
+  background-color: aqua;
+}
+
+.tally .seat {
+  border-right: 1px solid #999999;
+  border-left: 1px solid #999999;
+}
+
+.service {
+  height: 16vh;
+  border-bottom: 1px solid #999999;
+}
+
+.service .date {
+  color: #999999;
+}
+
+.service .date .calendar {
+  width: 16px;
+  margin: 14px 10px 0;
+}
+
+.service .menology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin: 12px 0;
+}
+
+.service .menology .time {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 40px;
+}
+
+.service .menology .hour {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-right: 36px;
+  color: #e63b0e;
+}
+
+.service .menology .than {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 3px;
+  right: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-top: 2px solid #5fc0cd;
+  border-right: 2px solid #5fc0cd;
+}
+
+.service .kalendar {
+  color: #999999;
+}
+
+.service .kalendar .coord {
+  width: 14px;
+  margin: 0 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f8fafb;
+}
+
+footer .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 66px;
+}
+
+footer .home .page {
+  width: 25px;
+}
+
+footer .home .index {
+  font-size: 12px;
+  color: #5fc0cd;
+}
+
+footer .home .minute {
+  width: 42px;
+}
+
+footer .home .notes {
+  font-size: 12px;
+  color: #999999;
+}
+
+.dianji {
+  text-decoration: none;
+}
+/*# sourceMappingURL=task12-1.css.map */

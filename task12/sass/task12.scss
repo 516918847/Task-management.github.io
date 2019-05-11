@@ -1,0 +1,163 @@
+// 在这里开始让他们变量
+$colour:rgba(95, 192, 205, 1);
+$tinct:#fff;
+$gray:rgba(153, 153, 153, 1);
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: $colour;
+
+    .label {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .hue {
+            position: absolute;
+            left: 12px;
+            height: 14px;
+            width: 14px;
+            transform: rotate(-45deg);
+            border-top: 2px solid $tinct;
+            border-left: 2px solid $tinct;
+        }
+
+        .tag {
+            color: $tinct;
+        }
+    }
+
+}
+
+.mark {
+    position: relative;
+    height: 10em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../logo/logo2.png);
+
+    .figure {
+        width: 70px;
+        margin: 38px 0 0 20px;
+    }
+
+    .tally {
+        position: absolute;
+        top: 48px;
+        left: 108px;
+        font-size: 20px;
+        color: $tinct;
+
+        .digit {
+            margin-left: 6px;
+        }
+    }
+
+    .nimeral {
+        position: absolute;
+        left: 107px;
+        top: 80px;
+
+        .character {
+            width: 10px
+        }
+
+        .amount {
+            font-size: 14px;
+            color: $tinct;
+        }
+    }
+}
+
+.skill {
+    padding-left: 10px;
+    margin: 20px 0 20px 10px;
+    border-left: 2px solid $colour;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid $gray;
+
+    img {
+        width: 17px;
+    }
+
+    .counter {
+        margin-left: 21px;
+    }
+
+    .dont {
+        margin-left: 10px;
+        padding-left: 10px;
+        border-left: 1px solid $gray;
+    }
+
+}
+
+.years {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid $gray;
+
+    .working {
+        margin: 0 17px;
+        padding-right: 16px;
+        border-right: 1px solid $gray;
+        color: $gray;
+    }
+
+    .hours {
+        color: rgba(226, 97, 99, 1);
+    }
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid $gray;
+    .self {
+        margin: 0 17px;
+        padding-right: 16px;
+        flex-shrink: 0;
+        border-right: 1px solid $gray;
+        color: $gray;
+    }
+}
+footer{
+    height: 76px;
+    border-top: 1px solid $gray;
+    .phone{
+        display: flex;
+        justify-content: space-around;
+        .self{
+            width: 50vw;
+            padding: 10px 0;
+            margin: 15px 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            border: solid $colour;
+            color: $colour;
+        }
+        .via{
+            width: 50vw;
+            padding: 10px 0;
+            margin: 15px 5px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            background-color: $colour;
+            color: $tinct;
+        }
+    }
+}

@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #5fc0cd;
+}
+
+header .label {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+header .label .hue {
+  position: absolute;
+  left: 12px;
+  height: 14px;
+  width: 14px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+header .label .tag {
+  color: #fff;
+}
+
+.mark {
+  position: relative;
+  height: 10em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../logo/logo2.png);
+}
+
+.mark .figure {
+  width: 70px;
+  margin: 38px 0 0 20px;
+}
+
+.mark .tally {
+  position: absolute;
+  top: 48px;
+  left: 108px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.mark .tally .digit {
+  margin-left: 6px;
+}
+
+.mark .nimeral {
+  position: absolute;
+  left: 107px;
+  top: 80px;
+}
+
+.mark .nimeral .character {
+  width: 10px;
+}
+
+.mark .nimeral .amount {
+  font-size: 14px;
+  color: #fff;
+}
+
+.skill {
+  padding-left: 10px;
+  margin: 20px 0 20px 10px;
+  border-left: 2px solid #5fc0cd;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border-top: 1px solid #999999;
+}
+
+.home img {
+  width: 17px;
+}
+
+.home .counter {
+  margin-left: 21px;
+}
+
+.home .dont {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #999999;
+}
+
+.years {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border-top: 1px solid #999999;
+}
+
+.years .working {
+  margin: 0 17px;
+  padding-right: 16px;
+  border-right: 1px solid #999999;
+  color: #999999;
+}
+
+.years .hours {
+  color: #e26163;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #999999;
+}
+
+.about .self {
+  margin: 0 17px;
+  padding-right: 16px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-right: 1px solid #999999;
+  color: #999999;
+}
+
+footer {
+  height: 76px;
+  border-top: 1px solid #999999;
+}
+
+footer .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .phone .self {
+  width: 50vw;
+  padding: 10px 0;
+  margin: 15px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  border: solid #5fc0cd;
+  color: #5fc0cd;
+}
+
+footer .phone .via {
+  width: 50vw;
+  padding: 10px 0;
+  margin: 15px 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #5fc0cd;
+  color: #fff;
+}
+/*# sourceMappingURL=task12.css.map */
