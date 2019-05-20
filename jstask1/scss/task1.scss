@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.label {
+    margin: 0;
+    padding: 0;
+
+    .tag {
+        float: left;
+        padding-bottom: 31%;
+        width: 31%;
+        margin: 1%;
+        border-radius: 18%;
+        list-style: none;
+        background-color: orange;
+    }
+}
+
+button {
+    clear: both;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+
+
+    &:hover {
+        background: #FFA600;
+    }
+}
