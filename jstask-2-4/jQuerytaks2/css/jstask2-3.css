@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background-color: #29bde0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid;
+  color: #fff;
+}
+
+header .tag {
+  width: 17px;
+  height: 17px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  margin-left: 10px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+header .chakan {
+  font-size: 20px;
+}
+
+header .label {
+  width: 25px;
+  height: 2px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+header .label .ladygaga {
+  width: 25px;
+  height: 2px;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+  background-color: #fff;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 10vw;
+}
+
+main .people {
+  border: 0.5vw solid #fff;
+  background-color: #f5c97b;
+  margin: 3vw 6.7vw;
+}
+
+main .people .min {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 18vw;
+  height: 15vw;
+  font-size: 4vw;
+}
+
+main .people .shui {
+  font-size: 2vw;
+  text-align: center;
+  background-color: #1a99b7;
+}
+
+.youxi {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  background-color: #fbb435;
+}
+/*# sourceMappingURL=jstask2-3.css.map */
