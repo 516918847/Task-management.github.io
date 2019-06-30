@@ -10,11 +10,6 @@ $(".omg").click(function () { //退出游戏
 total.addEventListener('input', function () {   //监听输入框的变化
     assign();
     random();
-    if(total.value>4){
-        return;
-    }else{ 
-        total.value=""
-    }
 }, false)
 function assign() {      //  获取杀手和平民的值
         people = total.value     //获取输入框的最初值
