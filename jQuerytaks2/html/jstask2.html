@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/jstask2.css">
+</head>
+
+<body>
+    <!-- 触发条件 -->
+    <input type="checkbox" id="bulletin">
+    <!-- 同时触发 -->
+    <ul class="affiche">
+        <li class="mark">
+            <img src="../logo/logo10.png" alt="">
+            <span>公告</span>
+            <div class="tally"></div>
+        </li>
+        <li class="mark">
+            <img class="setting" src="../logo/logo11.png" alt="">
+            <span>设置</span>
+            <div class="tally"></div>
+        </li>
+        <li class="mark">
+            <img class="setting" src="../logo/logo12.png" alt="">
+            <span>帮助</span>
+            <div class="tally"></div>
+
+        </li>
+        <li class="mark">
+            <img class="set" src="../logo/logo13.png" alt="">
+            <span>关于</span>
+            <div class="tally"></div>
+        </li>
+    </ul>
+    <div class="placard">
+        <header>
+            <!-- 触发开关 -->
+            <label for="bulletin">
+                <div class="label">
+                    <div class="tag"></div>
+                </div>
+            </label>
+        </header>
+        <main>
+            <div class="game">
+                <span>上传游戏：捉鬼猜词版</span>
+                <div class="play"></div>
+            </div>
+
+            <div class="recreation">
+                <div class="ghost">抓鬼游戏</div>
+                <div class="version">简化版</div>
+                <div class="user">有1133个用户正在玩此款游戏</div>
+                <div class="trigon"></div>
+                <div class="version">猜词版</div>
+                <div class="user">有1133个用户正在玩此款游戏</div>
+                <div class="version">白痴版</div>
+                <div class="user">有1133个用户正在玩此款游戏</div>
+                <div class="small">
+                    <span class="dots"></span>
+                    <span class="dota"></span>
+                    <span class="dota"></span>
+                    <span class="dota"></span>
+                </div>
+
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    <script>
+        document.getElementsByClassName("version")[0].onclick=function(){
+            window.location.href = 'jstask2-1.html';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #29bde0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid;
+    color: #fff;
+
+
+    .chakan {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .label {
+        width: 25px;
+        height: 2px;
+        transform: rotate(50deg);
+        margin-right: 10px;
+        background-color: #fff;
+
+        .ladygaga {
+            width: 25px;
+            height: 2px;
+            transform: rotate(80deg);
+            background-color: #fff;
+        }
+
+    }
+}
+
+.shashou {
+    margin-top: 2px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    background-color: #B9E9F5;
+}
+
+.shanjiaoxing {
+    width: 0;
+    height: 0;
+    border-width: 0 7px 10px;
+    border-style: solid;
+    border-color: transparent transparent #B9E9F5;
+    transform: rotate(-180deg);
+    margin-left: 20px;
+}
+
+.dianji {
+    margin-left: 23px;
+    font-size: 12px;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 10vw;
+
+    .people {
+        position: relative;
+        border: 0.5vw solid #fff;
+        background-color: #f5c97b;
+        margin: 3vw 6.7vw;
+
+        .min {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 18vw;
+            height: 15vw;
+            font-size: 4vw;
+        }
+
+        .shui {
+            font-size: 2vw;
+            text-align: center;
+            background-color: #1a99b7;
+        }
+        img{
+            position: absolute;
+            width: 5vw;
+            left: 6.3vw;
+            bottom: -6vw;
+            display: none;
+        }
+    }
+}
+
+.youxi {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #fbb435;
+
+}
