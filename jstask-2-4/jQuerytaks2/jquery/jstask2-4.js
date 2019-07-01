@@ -117,7 +117,7 @@ $(".whenb").eq(dayNNum).click(function () {
     console.log(allmsg.move)
 })
 
-$(".over").click(function(){
+$(".return").click(function(){
     sessionStorage.setItem('allmsg', JSON.stringify(allmsg));
     window.location.href= 'jstask2-3.html';
 })
