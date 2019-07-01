@@ -27,6 +27,6 @@ for (let i = 0; i < allmsg.collection.length; i++) {
 }
 for (var i = 0; i < allmsg.collection.length; i++) {
     if (allmsg.collection[i].state == 'dead') {
-        $(".youxi")[0].innerHTML = '返回';
+        $(".youxi")[0].innerHTML = '返回游戏';
     }
 }
