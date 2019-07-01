@@ -54,8 +54,14 @@ for (let i = 0; i < dayNNum; i++) {
     $(".whenb").eq(i).css('background-color', 'red');
 
 }
-if (allmsg.move == 1) {   //保存了杀手杀人按键的颜色
+if (allmsg.move >= 1) { //保存了杀手杀人按键的颜色
     $(".thisb").eq(dayNNum).css('background-color', 'red');
+}
+if (allmsg.move >= 2) {
+    $(".whatb").eq(dayNNum).css('background-color', 'red');
+}
+if (allmsg.move >= 3) {
+    $(".yourb").eq(dayNNum).css('background-color', 'red');
 }
 $(".thisb").eq(dayNNum).click(function () {
     if (allmsg.move == 0) {
@@ -117,7 +123,7 @@ $(".whenb").eq(dayNNum).click(function () {
     console.log(allmsg.move)
 })
 
-$(".return").click(function(){
+$(".return").click(function () {
     sessionStorage.setItem('allmsg', JSON.stringify(allmsg));
-    window.location.href= 'jstask2-3.html';
+    window.location.href = 'jstask2-3.html';
 })

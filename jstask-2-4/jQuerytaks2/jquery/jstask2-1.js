@@ -7,25 +7,26 @@ $(".omg").click(function () { //退出游戏
         window.location.href = 'jstask2.html';
     }
 })
-total.addEventListener('input', function () {   //监听输入框的变化
+total.addEventListener('input', function () { //监听输入框的变化
     assign();
     random();
 }, false)
-function assign() {      //  获取杀手和平民的值
-        people = total.value     //获取输入框的最初值
-    if (people < 4 || people > 18) {   // 当小于4或者大于18时为空
-        people = ""; 
+
+function assign() { //  获取杀手和平民的值
+    people = total.value //获取输入框的最初值
+    if (people < 4 || people > 18) { // 当小于4或者大于18时为空
+        people = "";
     }
     killer = parseInt(Math.floor(people / 3)) //  获取杀手分配
     civilian = people - killer // 获取平民分配
-    killerb.innerHTML = killer   //  显示杀手的人数
-    civiliana.innerHTML = civilian  //  显示平民的人数
+    killerb.innerHTML = killer //  显示杀手的人数
+    civiliana.innerHTML = civilian //  显示平民的人数
     console.log("杀手", killer)
     console.log("平民", civilian)
 }
-assign()    //这是打印出，最初值时候 杀手和平民的人数
-function random() {    //这是把杀手和平民都放在overall中
-    overall=[];
+assign() //这是打印出，最初值时候 杀手和平民的人数
+function random() { //这是把杀手和平民都放在overall中
+    overall = [];
     for (var i = 0; i < killer; i++) {
         overall.push("杀手");
     }
@@ -39,37 +40,38 @@ function random() {    //这是把杀手和平民都放在overall中
         overall[number] = temp;
     }
     console.log(overall)
-    collection=[],   //此处存放着初始状态，id名，第几天，在什么状态被杀
-    index=0;       //数组长度
+    collection = [], //此处存放着初始状态，id名，第几天，在什么状态被杀
+        index = 0; //数组长度
     for (i = 0; i < overall.length; i++) {
-         var add={
-             id:overall[i],   
-             index:index++,
-             state:'alive',
-             deaDreason:null,
-             deaDday:null,
+        var add = {
+            id: overall[i],
+            index: index++,
+            state: 'alive',
+            deaDreason: null,
+            deaDday: null,
         }
         collection.push(add)
     }
     console.log(collection)
 }
 random();
-$(function(){
-    $(".deal").click(function(){
-        if (people < 4 || people > 18) {
-            confirm("输入错误");
-        }else {
-             var allmsg={
-                collection:collection,   //数组
-                civilian:civilian,        //平民
-                killer:killer,         //杀手
-                dayNNum:0,       //天数
-                move:0,       //步骤
-             }
-        }
-        console.log(allmsg)
-        sessionStorage.setItem('allmsg',JSON.stringify(allmsg))
-        window.location.href='jstask2-2.html';
+// $(function () {
+    $(".deal").click(function () {
+        if (total.value < 4 || total.value > 18) {
+            alert("输入错误");
+            // return;
+        } else {
+            var allmsg = {
+                collection: collection, //数组
+                civilian: civilian, //平民
+                killer: killer, //杀手
+                dayNNum: 0, //天数
+                move: 0, //步骤
+            }
+            console.log(allmsg)
+            sessionStorage.setItem('allmsg', JSON.stringify(allmsg))
+            window.location.href = 'jstask2-2.html';
 
+        }
     })
-})
+// })
