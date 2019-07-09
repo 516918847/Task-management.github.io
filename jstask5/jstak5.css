@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(logo1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.box {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 180px;
+    background-color: rgb(255,255,255,0.5);
+}
+.number{
+    border: 1px solid cornflowerblue;
+    width: 12rem;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.sign-in{
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding: 5px 0;
+    color: #fff;
+    background-color: cornflowerblue;
+}
+.logo{
+    width: 36px;
+    position: absolute;
+    top: -30px;
+    left: 105px;
+}

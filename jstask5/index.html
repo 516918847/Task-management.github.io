@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jstak5.css">
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <form>
+                <img src="logo2.png" class="logo" alt="">
+                <input class="number" placeholder="用户名" maxlength="11" type="text" name="firstname"><br>
+                <input class="number" placeholder="密码" type="password" name="pwd">
+                <div id="tixing"></div>
+                <div class="sign-in">登入</div>
+            </form>
+        </div>
+    </main>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        var signIn = document.getElementsByClassName('sign-in')[0];
+        var display = document.getElementById('tixing');
+        signIn.onclick = function () {                          //原生写法
+            var user = document.getElementsByClassName('number')[0].value;
+            var password = document.getElementsByClassName('number')[1].value;
+            if (user === "" || password === "") {
+                // alert("请按游戏顺序进行，杀手先杀人！");
+                display.innerHTML = ('请输入账号密码')
+            } else {
+                var xhr = new XMLHttpRequest();
+                var data = "name=" + user + "&pwd=" + password;
+                console.log(data)
+                xhr.open('post', 'carrots-admin-ajax/a/login', true);
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send(data);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            arr = JSON.parse(xhr.responseText);
+                            console.log(arr.code)
+                            console.log(arr.message)
+                            console.log(xhr.response)
+                            if (arr.code == "-5003" && arr.message == "用户不存在") {
+                                display.innerText = arr.message;
+                            } else if (arr.code == "-5004" && arr.message == "密码错误") {
+                                display.innerText = arr.message;
+                            } else if (arr.code == "0" && arr.message == "success") {
+                                display.innerText = "登录成功";
+                                location.href = ('http://dev.admin.carrots.ptteng.com/');
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        // $(".sign-in").click(function (){          //jquery写法
+        //     var number1 = $(".number")[0].value;
+        //     var number2 = $(".number")[1].value;
+        //     console.log(number1)
+        //     console.log(number2)
+        //     if (number1 === "" || number2 === "") {
+        //         // alert("请按游戏顺序进行，杀手先杀人！");
+        //         $("#tixing").text('请输入账号密码')
+        //     } else {
+        //         $.ajax({
+        //             type: "post",
+        //             url: "carrots-admin-ajax/a/login",
+        //             data: {
+        //                 name: number1,
+        //                 pwd: number2,
+        //             },
+        //             dataType:'json',
+        //             success: function (data) {
+        //                 console.log(data)
+        //                 if(data.code==0){
+        //                     location.href="http://dev.admin.carrots.ptteng.com/;"
+        //                 }
+        //             }
+        //         })
+        //     }
+        // })
+    </script>
+</body>
+
+</html>
